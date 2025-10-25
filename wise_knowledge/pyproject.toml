@@ -1,9 +1,12 @@
 [project]
 name = "wise-knowledge"
 version = "0.1.0"
-description = "Add your description here"
+description = "Podcast transcripts embedding and vector search with Qdrant"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "qdrant-client>=1.15.1",
+    "openai>=1.58.1",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.66.1",
 ]
