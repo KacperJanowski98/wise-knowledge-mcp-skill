@@ -1,0 +1,864 @@
+# 5 fundamentów POZYSKIWANIA KLIENTÓW! | Seria ekspercka 1/3.
+
+Twój dział sprzedaży pisze do klientów,
+spotyka się z nimi, pisze do nich na
+LinkedInie, jeździ na targii. A dział
+marketingu próbuje robić reklamy albo
+SEO, albo jako przedsiębiorca oddałeś to
+wszystko agencji i niestety liczba
+zapytań jest mniejsza niż byś się tego
+spodziewał albo spodziewała. W tym
+materiale zajmiemy się tym, co jako
+przedsiębiorca, bardziej jako firma,
+którą prowadzicie, należy przemyśleć,
+jakie fundamenty należy ustawić, zanim w
+ogóle za pozyskiwanie klientów jako
+biznes się zabierzemy, bo najczęściej
+tam tkwi źródło wspomnianego problemu,
+czyli znacznie mniejszej liczby zapytań
+niż byśmy tego chcieli. Nie przedłużam,
+miłego oglądania. Kanał powstaje dzięki
+Wise Group, grupie spółek, które
+pomagają firmom mądrze rosnąć. Cellwise
+doradza, szkoli i wdraża narzędzia IT w
+sprzedaży B2B. Adwise projektuje i
+realizuje marketing B2B. Hwise
+specjalizuje się w rekrutacjach IHRZE.
+Automate wdraża automatyzację oraz AI w
+firmach. Sprawdź więcej na wsegroup.pl.
+No dobrze, zanim zaczniemy się
+zastanawiać na temat fundamentów, musimy
+sobie powiedzieć, że jest rok 2025,
+kiedy nagrywam ten materiał, kiedy wy go
+oglądacie, ponieważ może być już szósty,
+czy nawet siódmy, musicie sobie
+odpowiedzieć na pytanie, jaka jest
+aktualna sytuacja, czy geopolityczna,
+czy też sytuacja nieco bardziej lokalna
+w waszej niszy, w której działacie,
+ponieważ wiele firm teraz jest w
+sytuacji, w której ich grupa klientów
+jest albo w stagnacji, albo wręcz w
+drobnym kryzysie. I teraz oczywistym
+założeniem jest, że mamy mniej zapytań,
+bo rynek spada, bo rynek zahamował, bo
+rynek wstaw tu dowolne wytłumaczenie
+mówione przez dział sprzedaży czy dział
+marketingu. I teraz rzecz, którą chcę
+powiedzieć na samym początku, to chcę
+powiedzieć, że to jest oczywiste, że
+spadł i oczywiście, że z tego powodu
+jest mniej zapytań. Czy to nas
+rozgrzesza i sprawia, że powinniśmy
+podpisać się pod tym twierdzeniem, tak,
+to wina rynku i po prostu czekać, aż ten
+zły rynek się odrynkowi i będzie rosnąć
+i będzie fajnie. No nie. To jest
+oczywiste szaleństwo. Po to prowadzicie
+biznes. Po to robicie to w sposób
+zmyślny i mądry. A taki też staramy się
+na tym kanale proponować i taki staramy
+się też
+promować, żeby sobie to kurka przemyśleć
+właśnie na rynku spadającym. I i właśnie
+szczególnie kiedy mówimy o rynkach
+malejących, to temat fundamentów wtedy
+wypływa, ponieważ jak wszystko rośnie,
+nie musimy się jakoś szczególnie jako
+biznes starać. Wystarczy, że robimy
+cokolwiek zazwyczaj i to kończy się w
+biznesie zapytaniami i klientami.
+Moment, kiedy rynek spada jest właśnie
+tym, kiedy te fundamenty wypływają nam
+na wierzch i jednocześnie do biznesu
+przychodzi rachunek za to, że nie
+ogarnęliśmy ich wtedy, kiedy było
+dobrze. W związku z tym, drodzy
+widzowie, jeżeli u was jest dobrze, to
+to jest najlepszy moment na to, żeby
+fundamentami się zająć. A jeżeli liczba
+zapytań spadła, to jest drugi najlepszy.
+Tak po prostu. Zanim zaczniemy,
+koniecznie zostawcie suba, dlatego że
+jeżeli jest dużo subów, to my się jako
+twórcy cieszymy, jest nam milej. Budzimy
+się z uśmiechem, idziemy spać z
+uśmiechem i wszystko jest lepsze. Więc
+jeżeli tylko jest to możliwe, jeżeli
+dasz radę, teraz się zatrzymaj i zostaw
+suba, zostaw dzwoneczek i zostaw nam
+lajka. Idziemy dalej. Fundamenty, o
+których wam dzisiaj powiem, to są
+fundamenty, które mogą się wydawać wam
+być może oczywiste. To znaczy zdaję
+sobie sprawę z tego, że bardzo wiele
+firm mówi o tym, że te fundamenty ma
+przemyślane, ale pokażę wam je od strony
+znacznie bardziej praktycznej, takiej,
+która zakładam, że teraz w czasie, kiedy
+te ta liczba zapytań spada, wam po
+prostu pomogą. I pierwszym fundamentem
+jest brak zdefiniowanego klienta. I wiem
+co pomyślicie. Najczęściej firmy, z
+którymi pracujemy dzielą się na dwa
+rodzaje. Na rodzaj pierwszy i na rodzaj
+drugi. Pierwszy rodzaj firm ma bardzo
+oczywiste, bardzo oczywistą grupę
+klientów. Na przykład ktoś produkuje
+rusztowania, no i siłą rzeczy jest jakaś
+jedna duża grupa klientów, która się
+dzieli może na trzy podgrupy. Jacyś tam
+odsprzedawcy tych rusztowań, firmy
+budowlane, jakieś generalni wykonawcy i
+tak dalej. Ta grupa docelowa w pewien
+sposób narzuca się sama. Są też takie
+firmy jak moja, które mogą mieć
+przeogromnie szeroką grupę docelową.
+Mogę docierać ja z usługami poprawy
+sprzedaży i marketingu do firm
+produkcyjnych, do firm IT, do firm
+jeszcze innych, jeszcze innych, jeszcze
+innych i w ogóle do większości branż
+pewnie w tym kraju mógłbym docierać,
+jeżeli bym chciał. I teraz bardzo często
+ta grupa po lewej mówi, że my, panie
+Szymonie, i tak nie możemy wybierać
+grupy docelowej, bo mamy tylko trzy
+grupy albo jedną. Nie ma o czym
+rozmawiać. Więc ten te ten pana
+fundament jest nic nie warty. A ci
+drudzy mówią, że ale panie Szymonie, my
+docieramy do wszystkich, więc my nie
+możemy tak sobie
+tutaj zawęzić tego targetu. I omówmy
+sobie te dwa scenariusze. Jeżeli
+jesteście biznesem pierwszym, który
+rzeczywiście ma jasno zdefiniowaną grupę
+docelową, to znaczy załóżmy, że mamy
+firmy
+budowlane i załóżmy, że mamy firmy jakiś
+generalnych wykonawców. I teraz uwaga.
+Generalnych wykonawców pewnie jest
+mniej, więc zajmijmy się firmami
+budowlanymi. Są firmy budowlane, które
+są na przykład w całej Polsce jako
+pierwsza grupa. Są firmy budowlane,
+które działają na przykład na całej
+Europie. W całej Europie są firmy
+budowlane, które są małe. Są firmy
+budowlane, które są duże, są firmy
+budowlane, które pochodzą z rynku
+niemieckiego. Są firmy budowlane, które
+pracują z takimi budynkami. Są firmy
+budowlane, które pracują z innymi
+budynkami i jeszcze inne firmy
+budowlane. Czyli jak sobie rozbierzemy
+ten segment tych firm budowlanych, to
+się okaże, że jest wiele rodzajów tych
+firm budowlanych właśnie segmentów grup
+docelowych. I zazwyczaj kiedy rynek
+spada nie jest tak, że wszystkie te
+segmenty trafia szlak z nieba i one
+wszystkie mają problem. W niektórych
+niszach oczywiście tak jest, ale wtedy
+próbujemy wyjść poza te nisze.
+Najczęściej jest tak, że są jakieś dwie
+grupy, które akurat chwilowo mają się
+dobrze i z różnych przyczyn dysponują
+budżetami albo dysponują czasem na to,
+żeby taką inwestycją czy nowym tematem,
+z którym wy przyjdziecie się zająć. I
+teraz dokładnie na tym polega ten
+fundament pierwszy. To znaczy, że firmy
+traktują, idą do handlowców i mówią czy
+do swojego marketingu, musimy pozyskiwać
+firmy
+budowlane i oni idą pozyskiwać firmy
+budowlane i jest to absolutnie
+niewystarczające. Ktoś w biznesie,
+najprawdopodobniej zajmujący się
+wzrostem, powinien w sposób stały
+zastanawiać się na jakie segmenty dzielą
+się firmy budowlane i do których z nich
+docieramy aktualnie. I teraz zwróćcie
+uwagę, jeżeli docieramy do tych trzech,
+to nie jest tak, że zrezygnowaliśmy ze
+wszystkich pozostałych. To nie na tym to
+polega. To polega na tym, że akurat w
+tym czasie koncentrujemy się na tych
+trzech segmentach, bo mamy dobry powód,
+bo one dużo kupują, bo są w dobrej
+sytuacji finansowej, bo nie są dotknięte
+jakimiś regulacjami europejskimi, które
+w jakiś sposób ograniczają popyt, bo
+mają w ogóle dobrą sytuację
+koniunkturalną w swojej niszy, że ich
+rynek rośnie. W związku z tym to jest
+dobry moment, żeby to zrobić. Albo wręcz
+przeciwnie, może poszukujecie firm,
+które mają bardzo słaby rynek i mają
+dużo problemów z tym, co się u nich
+dzieje. Chodzi o to, że w sposób bardzo
+świadomy ktoś w firmie musi cały czas
+panować nad tymi segmentami i się
+zastanawiać, które z nich aktualnie są
+tymi, do których powinniśmy docierać. I
+teraz bardzo często firmy powinny robić
+coś takiego, że powinny mieć co najmniej
+dwa aktualnie działające
+segmenty, które Coś mi dzisiaj nie idzie
+to rysowanie dawno nie rysowałem. Co
+najmniej dawno nie rysowałem, nie? Co
+najmniej dwa działające dobre segmenty,
+które w jakiś sposób się uzupełniają.
+Jeżeli miałbym jako właściciel firmy
+miałbym segment firm budowlanych i
+generalnych wykonawców, to starałbym się
+znaleźć dwa podsegmenty firm
+budowlanych, które mają się świetnie. i
+znaleźć na przykład jeden zawężony
+segment generalnych wykonawców, do
+którego aktualnie chcę docierać. Miałbym
+wtedy trzy segmenty, które aktualnie
+adresuje, czy to działaniami handlowców,
+spotkaniami, targami, telefonami,
+wszystkim innym, czy też działaniami
+marketingu polegające na tym, że nie
+wiem, robimy dla nich jakieś webinary,
+piszemy do nich oferty, piszemy do nich
+na LinkedInie czy cokolwiek z tych
+rzeczy. Bardzo ważnym, pierwszym
+fundamentem jest świadomy wybór
+segmentu, do którego się udajemy,
+bazujący właśnie na tym, jaka sytuacja
+aktualnie planu panuje wśród tych
+naszych klientów. I teraz jest ta druga
+grupa firm, słuchajcie, które tak jak ja
+mogą adresować rynki bardzo szeroko i
+możemy sprzedawać nasze usługi, produkty
+do wielu niż. Ja od wielu lat podaję dwa
+przykłady. Przykład pierwszy,
+docieraliśmy dalej, zresztą docieramy do
+firm produkcja przemysł. Produkcja
+przemysł zawsze była dla nas ważnym
+segmentem, dlatego że ten segment w
+Polsce ma się świetnie i raczej jeszcze
+przez kolejnych parę lat będzie się miał
+świetnie i wiem co co powiecie teraz
+jest kryzys, jest coraz gorzej, bo jest
+rynek niemiecki, tam to wszystko spada i
+ja to rozumiem. Natomiast uważam, że
+mimo wszystko jest to bardzo mocny
+segment rynku dzisiaj. Drugim mocnym
+segmentem w Polsce od zawsze jest
+szeroko pojęte IT. I teraz jeżeli jestem
+ja jako przedsiębiorca kimś, kto w
+sposób świadomy się musi zdecydować na
+jakieś grupy docelowe, to oczywiście, że
+to jest grupa zero, tu jest grupa 3, 4,
+5, 6. Pracujemy z wieloma grupami
+klientów, natomiast koncentrujemy się na
+kilku. Czyli w sposób świadomy wśród
+tych bardzo wielu grup klientów, które
+mogą do nas trafić, wybieramy te, które
+są dla nas z kolei jako biznesu
+najbardziej bezpieczne. Co to znaczy
+bezpieczne? To znaczy, że produkcja na
+przykład kupuje w około trzy miesiące,
+czyli znacznie dłużej niż kupuje IT, bo
+IT kupuje w dwa trzy tygodnie. To jest
+ciekawe porównanie tych grup docelowych
+i one się na przykład tym różnią. Jest
+druga rzecz, druga bardzo istotna
+różnica. Firmy produkcyjne i przemysłowe
+kupują u nas więcej, więc jeżeli kupują
+dłużej i kupują więcej, to ma to duży
+sens. Firmy IT kupują u nas raczej
+trochę mniej, ale za to kupują znacznie
+szybciej. I teraz co jest bardzo ważne,
+jeżeli ja jako przedsiębiorca będę miał
+problem, bo rynek IT, zresztą tak było w
+roku 2023, trochę klęknie, trochę
+usiądzie, trochę kucnie, teraz z niego,
+z tego kucu wstaję, to mam cały czas
+bardzo duży, drugi istotny segment, do
+którego docieram. I teraz zwróćcie
+uwagę, że jeżeli jest problem w
+pozyskiwaniu klientów waszej firmie, ta
+liczba zapytań spada, to być może
+powodem jest to, że poszliście za
+szeroko, czyli poszliście do nikogo,
+mówiąc wprost, albo założyliście, że
+cała nasza grupa klientów ma się źle,
+zamiast próbować poszukać tę część tej
+grupy, która ma się dość dobrze. W
+związku z tym to jest pierwszy istotny
+fundament i mało tego uważam, że w
+waszych firmach, jeżeli chcecie taki
+fundament zaopiekować, powinienby być
+ktoś kto się w sposób stały nad tym
+zastanawia. Jeżeli dyrektor sprzedaży
+robiłby swoją pracę tak, jak powinien
+robić, czyli nie
+byłby super dobrym handlowcem, który
+sprzedaje więcej niż swoi handlowcy,
+jeździ do do klientów i po prostu domyka
+tematy, tylko byłby kimś, kto stroi ten
+system, ustawia go w jakiś sposób,
+znajduje właśnie takie informacje jak te
+wspomniane przed chwilą, to tego
+problemu by nie było. Bo to jest
+fundament pierwszy, który bardzo często
+jest niezaopiekowany albo jest
+zaopiekowany w sposób, nazwijmy go
+jaki. Słaby. Dziękuję. Klaudiusz
+medal. Drugi fundament. Słuchajcie,
+nagraliśmy ostatni odcinek, który
+zbudził dużo emocji. To był odcinek Jak
+się wyróżnić, kiedy sprzedajesz to samo,
+co wszyscy. I teraz generalna zasada
+jest taka, że jeżeli przyjmiemy,
+słuchajcie, że jakaś grupa
+klientów ma jakiś problem i
+wymyśliliście na ten problem jakąś
+propozycję
+wartości, propozycja wartości i idziecie
+z tym komunikatem w rynek, czyli
+handlowcy do tych ludzi, którzy mają ten
+problem, piszą o tym i ci ludzie nie
+odpowiadają, to jest bardzo duża szansa
+na to, że albo nie mają tego problemu i
+wam się tylko wydaje że mają, albo
+myślą, że go nie mają i nie potraficie
+ich do tego przekonać, że mają, albo że
+ta propozycja wartości, z którą wy
+napisaliście, to nie jest propozycja
+wartości. Wyobraźcie sobie, że ja jako
+Szymon Negacz piszę do dyrektora
+sprzedaży, dyrektora sprzedaży dowolnej
+firmy i piszę dzień dobry. Piszę do
+pana, bo zauważyliśmy, że częstym
+problemem jest to, że handlowcy nie
+jakby nie realizują celów i on mówi
+naprawdę. I dlatego my możemy panu
+zrobić
+szkolenie. I on mówi: "Ja nie potrzebuję
+teraz szkolenia. To w ogóle ja może i
+mam ten problem, ale to ja go mam od
+zawsze. Słuchajcie, nie ma działu
+sprzedaży, w którym jest, może jest, ale
+nie ma działu sprzedaży, w którym jest
+wszystko dobrze i ta propozycja wartości
+po prostu nie siada. Bardzo długi czas
+fotowoltaika, słuchajcie, w Polsce
+wyrosła na tym, że jest taki problem, że
+drogi prąd, jest taki problem, że sąsiad
+ma takie panele, a pan nie ma i to
+głupio wygląda. Fajnie, gdyby pan miał i
+w ogóle i w ogóle, a propozycja wartości
+jest potężna, bo są dopłaty, bo to
+będzie wam się spłaci w trzy lata, bo to
+zamontujemy tutaj dosłownie w jeden
+weekend, bo to będzie w ogóle takie smś
+makie i owakie. To było tak dobre,
+słuchajcie, że przez pewien czas tych
+propozycji wartości płynących za tym
+produktem było na tyle, że dzisiaj w
+polskich wsiach to niekiedy co drugi dom
+ma załączoną czy założoną fotowoltaikę i
+ktoś kto znalazł tą parkę problemu
+silnego, czyli dużo płacimy i sąsiad ma
+z propozycją wartości, która była
+dostatecznie silna, żeby zachęcić tych
+ludzi do rozmowy i żeby zachęcić ich do
+zakupu. I w dużej mierze zwróćcie uwagę,
+że na przykład moja organizacja też na
+tym wyrosła. Kiedy akurat kończyła się
+fala wzrostu koniunkturalnego w latach
+2020 mniej więcej, wtedy my weszliśmy na
+rynek rozwiązując problem polegający na
+tym, że w działach sprzedaży i
+marketingu jest chaos, bo był i
+rozwiązywaliśmy też problem polegający
+na tym, że lokalne problemy w wielu tych
+niszach, że na przykład tutaj nie działa
+pozyskiwanie klientów, tam nie działa
+proces sprzedaży, tutaj nic nie mierzą,
+wiele tematów i mieliśmy na to inną
+propozycję wartości, nieco ciekawą,
+nieco niety typową. To nie było, że
+zrobimy wam szkolenie, tylko propozycja
+wartości była o tym, że od nas przyjdzie
+człowiek, spojrzy na waszą firmę, zrobi
+audyt, z tego audytu powstanie plan
+działania, a następnie pomoże wam ten
+plan działania wdrożyć z wami na
+pokładzie, z wami za rękę pójdziemy,
+zrobimy, wdrożymy, fajnie będzie. Tych
+propozycji wartości. Potem powstała cała
+masa. Ale to co się okazało, to okazało
+się, że ten problem oczywiście istniał
+wiele lat, ale jedynymi propozycjami
+wartości, które które je leczyły były
+duże projekty doradcze, na które te
+firmy na przykład nie było stać. Były
+szkolenia, te firmy już nakupowały masę
+szkoleń, które im nie pomogły na
+przykład tym działom sprzedaży. W
+związku z tym to co my zrobiliśmy, to
+znaleźliśmy problem silny i propozycję
+wartości, która była ciekawa, fajna,
+mocna, na tyle mocna, że ludzie chcieli
+z nami rozmawiać. I teraz ja mógłbym
+tych parek wymieniać, słuchajcie, całą
+masę. Yyy, mógłbym powiedzieć na
+przykład mieliśmy klienta, ja tu lubię
+opowiadać bardzo, bo to jest fajny
+przykład.
+Duży problem dystrybutorów europejskich
+polegał na tym, że mieli za niską marżę.
+Tych dystrybutorów europejskich mieli za
+niską marżę. Ona spadała, była zjadana
+przez dostawców najczęściej pochodzących
+ze wschodu. Była zjadana po prostu. I
+propozycja wartości naszego klienta
+producenta była taka, że mamy produkt,
+który wygląda lepiej niż realnie, niż
+realnie kosztuje, czyli wygląda na
+opółkę segmentu wyżej niż rzeczywistości
+jest. I to tobie, drogi dystrybutorze,
+daje możliwość dania na ten produkt
+znacznie wyższej marży, bo on wygląda
+jak produkt droższy, a realnie nim nie
+jest. I to nie było, słuchajcie,
+handlowcy nie dzwonili, że mamy tanie,
+mamy tanie produkty, tylko dzwonili, że
+to jest idealny produkt na to, żeby
+rozwiązać problem za niskiej marży w
+twojej firmie. I ten rozmówca mówił:
+"Wow, spotkajmy się, chcę to zobaczyć".
+Nie, zwróćcie uwagę, że to jest bystry
+sposób przedstawienia tego. Mieliśmy,
+słuchajcie, inną grupę. mieliśmy,
+mieliśmy drukarnię na przykład już było
+wiele lat temu, ta propozycja wartości
+nie jest aktualna, wtedy była.
+Docieraliśmy do firm y takich agencji
+reklamowych w okolicach Beneluxu. Ich
+problemem było to, że mają za duże
+koszty, ale istotnie za duże. Też mieli
+problemy z rentownością. A naszą
+propozycją wartości było to, że tanio
+zrobimy
+druki. Byliśmy Polakami wtedy, dalej
+jesteśmy zresztą. I oni mówili: "Dobra,
+ale mamy drugi problem, to musi być w
+jeden dzień u nas, bo tam do ostatniej
+chwili nie wiadomo, co będzie do
+wydrukowania i no i niestety nie możemy
+tego u was zamówić. Zamawiamy to
+lokalnie w Beneluxie, dwa razy drożej,
+ale mamy to na jutro przynajmniej." Więc
+my wymyśliliśmy jak to zrobić tak, żeby
+przetransportować to na jutro do nich.
+To nie było aż tak tanie wtedy, ale było
+trochę droższe, tam 20 30%, ale wciąż
+było to na tyle duża i mocna propozycja
+wartości, że ci ludzie to po prostu
+kupowali. I teraz do czego zmierza drugi
+fundament? Drugi fundament zmierza do
+tego, że jeżeli wasza liczba zapytań
+spada, to najprawdopodobniej oprócz
+tego, że utraciliście segment,
+utraciliście
+chróbkość tej tego połączenia problemu z
+propozycją wartości, że to przestało
+grać i wy jako przedsiębiorca, a być
+może cała firma, a być może konkretny
+działo, trochę to przegapiliście, że
+jakaś grupa docelowa już nie ma tak
+istotnego problemu, albo ma inny, albo
+ta propozycja wartości, którą macie
+przestała być dla nich bardzo ciekawa.
+bardzo interesująca czy imponująca. I
+teraz macie masę rzeczy, które możecie
+pozmieniać. Możecie wrócić do fundamentu
+pierwszego, zmienić w ogóle grupę
+docelową, pójść do grupy docelowej,
+która ma silny problem i doceni tą
+propozycję wartości. Pierwsza rzecz,
+którą możecie zrobić, możecie adresować
+zupełnie inne problemy istniejącej grupy
+docelowej, albo możecie stworzyć
+zupełnie nową, ciekawszą propozycję
+wartości. Czyli jeżeli wasze
+pozyskiwanie klientów nie działa albo
+działa coraz gorzej, to może być bardzo
+istotny sygnał, że ta część, bo to jest
+część modelu biznesowego, zwróćcie
+uwagę, model biznesowy u samego centrum
+zawiera grupę docelową i propozycję
+wartości, która jest do niej kierowana w
+jakiś sposób. Być może spadek zapytań
+wraca do drugiego fundamentu, czyli
+tego, że ta propozycja wartości po
+prostu przestała
+być zasadna.
+Trzeci fundament. Dobrze idzie
+Klaudiusz? Nie cudownie. Klaudusz mówi,
+że dobrze idzie. Ja jestem dzisiaj
+nakręcony. Słuchajcie, wypiłem trzy
+kawy. Trzeci fundament. Język. Ja to
+napiszę całe
+język. Uważam, że język jest w B2B
+jednym z większych powodów i większych
+przyczyn tego, że liczba zapytań spada.
+Ja o tym powiem krótko. Jeżeli piszecie
+na swojej stronie: "Jesteśmy liderem".
+Mamy 20 lat doświadczenia, mamy wysoką
+jakość albo mamy dobry stosunek ceny do
+jakości. Nasza firma wyróżnia się tym,
+że dbamy o naszych klientów oraz tym, że
+jesteśmy
+absolutnie no najwspanialsi jesteśmy.
+Dużym skrócie mówiąc, jesteśmy po prostu
+zajebiści, najlepsi. Jakby ja rozumiem,
+że jest konkurencja, ale to szmaciarze
+zwykli po prostu. Pan rozumie, my
+jesteśmy jedyni najlepsi i i po prostu
+tak jest. No można dyskutować z różnymi
+rzeczami, ale nie z faktami. I teraz
+słuchajcie, bardzo wiele stron
+internetowych, bardzo wielu firm można
+byłoby skrócić do tego zdania. Jesteśmy
+po prostu tak dobrzy, że aż szkoda
+gadać. Ja jesteśmy dobrzy, to jako
+klient masz się sam kurna domyślić. No
+tak. No jesteśmy tak zajebiści, że tak
+jest i tyle. I powiem wam, że i język na
+poziomie kampanii. Jesteśmy wielcy,
+potężni, wspaniali. Zobacz naszych 100
+klientów, zobacz nasze wdrożenia, w
+ogóle jesteśmy liderem rynku i tak
+dalej. Bez sensu to nie działa. Maile:
+"Dzień dobry". Piszę do pana, bo nasza
+firma już od 20 lat sukcesami dostarcza
+szkolenia oraz doradztwo dla polskich
+klientów. Naszymi klientami jest między
+nimi McDonald, Orlen, Orange i tam
+wymieniam. I teraz ludzie spodziewają
+się, że pisząc o sobie ktoś się nimi
+zainteresuje. To jest jakby, ja
+rozumiem, że i ja zawsze nawiązuję do
+tematu przystojności.
+Słuchajcie, ja Szymon Negacz jestem
+niezwykle przystojnym
+człowiekiem. Czy w waszej percepcji
+właśnie moja przystojność się
+zwiększyła? No nie, no po prostu no
+każdy z was spojrzał no typ jaki jest,
+każdy widzi. To, że powie, że jest
+przystojny nie sprawia, że uznam go za
+przystojnego. I tak samo jest z tymi
+bredniami wygadywanymi przez firmy.
+Słuchajcie, wszyscy ci, którzy piszą:
+"Mamy wysoką jakość i jesteśmy liderem
+rynku", przecież nikt na świecie nie
+zrobi tak, że przeczyta to i powie: "A
+no tak, mają wysoką jakość i są liderem
+rynku, trzeba u nich kupić". Nikt tak w
+historii świata nie powiedział. Nie
+wierzę, że to tak zadziała. W związku z
+tym zachęcam was do używania ludzkiego
+języka. I teraz wiem co powiecie w
+naszej branży. Panie Szymonie, to jest
+bardzo profesjonalny język. Nie chodzi
+mi o prostacki język. Chodzi mi o ludzki
+język mówiący o kliencie, a nie o nas. I
+teraz o tym kliencie można mówić bardzo
+wiele rzeczy. Można mówić w sposób
+sensowny, nawet nie trzeba mówić, że
+jesteśmy liderem rynku, tylko na
+przykład można powiedzieć, że już
+naprawdę chcecie o tym powiedzieć, że w
+segmencie jakby dla dostawców, dla firm
+budowlanych,
+nie
+można powiedzieć, że dla firm
+budowlanych jesteśmy jedynym polskim
+dostawcą, który jest w stanie zrobić to
+i to i to i to w jednym miejscu, na
+jednej fakturze. To jest komunikat z
+poziomu faktów, z poziomu konkretu,
+który coś dla tego klienta oznacza. To
+znaczy on może dowiedzieć się, że okej,
+jestem firmą budowlaną, jak będę chciał
+zrobić te cztery konkretne rzeczy, to
+mogę to zrobić u nich, bo oni wszystkie
+te rzeczy robią. Zamiast mówić, że mam
+wysoką jakość, mogę napisać, że nasze
+produkty wykonujemy z tego, wykonujemy w
+taki sposób, wykonujemy w takim
+procesie, po to, że ktoś kto to
+przeczyta powie: "Kurczę, muszą mieć
+wysoką jakość w związku z tym". I to
+jest słuchajcie różnica. Czyli trzeci
+fundament to język. Jeżeli mamy dobrze
+dobraną grupę docelową, punkt pierwszy,
+mamy dobrze dobraną propozycję wartości,
+punkt
+drugi. Oni przybili teraz kołek i już
+git. To jest ta druga dziura.
+Generalnie chodzi o to, że fundament a
+propos firm budowlanych, tak w ogóle, że
+fundament trzeci polega na tym, a już
+wiem co chciałem powiedzieć, już wiem,
+już wiem, że jak macie dobrze dobraną
+grupę docelową i macie wspaniałą
+propozycję wartości, ale napiszecie do
+tych ludzi używając języka: "Ja jestem
+wielki, fajny, potężny i ty teraz masz
+uklęknąć i podziwiać moją potęgę i
+wielkość", to po prostu nie ma
+absolutnie żadnego sensu. Kropka. To
+jest fundament trzeci. Idziemy do
+fundamentu czwartego. To już
+przedostatni. Uwaga.
+nie masz procesu, tylko masz pojedyncze
+działanie. I teraz uwaga. Jeżeli
+wyobrazimy sobie podróż klienta jako
+taką ścieżkę, nie? Tutaj klient sobie
+zdał sprawę z tego, że istnieje problem,
+tutaj gdzieś tam zakręcił się, bo ten
+proces jest nieliniowy, chaotyczny dość
+i w ogóle i w ogóle. W tym miejscu sobie
+przeczytał jakieś case study, tutaj coś
+wygooglował, tutaj się spotkał z kolegą,
+tutaj oglądał film na YouTubie. Uwaga,
+ludzie filmy na YouTubie też oglądają w
+czasie swojego procesu zakupu albo
+uświadamiają sobie, że mają jakiś
+problem oglądając jakiś materiał na
+YouTubie. Generalnie robią bardzo dużo
+rzeczy ci klienci kupując. Kropka. I
+teraz jeżeli przyjmiemy, że tak jest, że
+każdy klient, który kupuje, gdzieś tam
+czyta, gdzieś tam dzwoni, coś tam szuka,
+czegoś kombinuje, szczególnie w B2B, bo
+ja wiem, że w B2C mogę przejść koło
+wystawy, zobaczyć piękną torebkę i kupić
+sobie piękną torebkę, bo była piękna i
+tam nie musi być logiki za tym, to
+jednak mimo wszystko skrajna większość
+zakupów B2B jest z poziomu logiki. Nie
+kupuję sobie tego biurka, nie kupiłem
+dlatego, że strasznie chciałem mieć
+takie biurko, tylko kupiłem je, bo
+potrzebowałem biurko do studia, które
+będzie ciekawie wyglądać w kadrze. To
+była konkretna logiczna potrzeba
+zakupowa w B2B. I teraz uwaga. Jeżeli wy
+jako firma robicie lokalne działania,
+tutaj zleciliśmy w tym miejscu agencji
+zrobienie
+reklamy. O, a w tym miejscu w sumie
+ciężko powiedzieć, w którym nasi
+handlowcy piszą maile. Tadam, koniec. Ja
+nie mam procesu, pomysłu na to, jak
+prowadzić pozyskiwanie klientów. Ja mam
+pojedyncze dwa działania, jedno i
+drugie. I dziwię się, że mi to nie
+działa. Ja rzeczywiście miałem,
+słuchajcie, na rozmowie, dosłownie
+wczoraj miałem firmę, która przyszła do
+mnie z tym, że ma raport na który wydała
+kurczę z 200 koła, piękny PDF, wszystko
+super zrobione. Okazuje się, że nikt
+tego raportu nie chce pobierać i
+handlowcy dzwonią do firm produkcyjnych
+i oni nie chcą rozmawiać. mówią, że nie,
+nie, dziękuję, nie potrzebujemy. No i
+nie działa. No bo mają dwa lokalne
+działania zamiast procesu, który jest w
+jakiś sposób przemyślany, że my najpierw
+mailem sadzimy jakąś ideę u klienta,
+później gdzieś tam spotykamy się, żeby
+pokazać mu jakieś case study, później
+gdzieś tam jest coś tam, później gdzieś
+tam przy całym tym procesie towarzyszą
+nam reklamy, które są gdzieś tam na
+Googleu czy na LinkedInie w ogóle są i
+na stronie można poczytać wiele na
+naszym produkcie i jeszcze jest 15
+innych pomysłów na to, co zrobić.
+Przecież w naszym marketingu, jeżeli się
+nad tym zastanowimy, ktoś może i oglądać
+mojego LinkedIna, może oglądać mojego
+Instagrama, może oglądać tego YouTubea,
+może słuchać podcastu Nowoczesna
+sprzedaż i marketing, może słuchać
+podcastu FinerTO, YouTubea Finerto, może
+oglądać YouTubea Wise Toolsa, może
+czytać sześć stron internetowych, na
+których jest pewnie łącznie grube
+kilkadziesiąt zakładek produktowych, na
+których my opisujemy co się dzieje. Może
+czytać nasze case studies, może oglądać
+nasze reklamy, może wziąć udział w
+naszych szkoleniach, może zrobić
+dziesiątki różnych działań. Jeżeli nie
+grube setki tak naprawdę, które są
+elementem całego procesu. I teraz jeżeli
+robisz dwa pojedyncze działania i to ci
+nie
+działa, to pewnie dlatego nie działa, że
+to są pierwsze dwa pojedyncze działania,
+które musisz obudować jednak mimo
+wszystko jakimś większym ekosystemem
+działań niż tylko dwoma pojedynczymi
+rzeczami, które robisz na ścieżce
+klienta. Boże, jaki piękny
+rysunek jest. Jest okropny. jest
+straszny. Yyy, ale jak go rysowałem, to
+się wydawał sensowny. I ostatni
+fundament. Słuchajcie, ostatni
+fundament, który chcę dzisiaj poruszyć,
+to jest uwaga.
+Mamy w firmie
+prezesa. Prezes wymyślił, że do grupy
+klientów
+budowa budowlanka do wszystkich
+oczywiście budow źle napisałem,
+nieważne. Do grupy budowlanka piszemy
+maile, które mają taki tytuł i taką
+treść. No i teraz patrzcie, to co prezes
+wymyślił. W ogóle w większości firm jest
+święte. No bo jak prezes kazał, no to
+przecież robię. Kazali strzelać, to
+strzelam. I teraz uwaga. Piątym
+fundamentem jest to, że jeszcze w
+historii naszych klientów, a zrobiliśmy,
+słuchajcie, procesów pozyskiwania u
+naszych klientów, zrobiliśmy górne
+kilkaset gotowych, wielkich, dużych
+procesów pozyskiwania klientów. Żaden z
+nich, żaden z nich, ani jeden z nich nie
+działał od pierwszego pomysłu. Kropka.
+We wszystkich z nich, słuchajcie, trzeba
+było
+mierzyć, czyli mierzyć ile procent osób
+dostaje te maile, ile procent osób je
+otwiera, ile procent osób z tej grupy
+docelowej na nie odpowiada i na poziomie
+tych metryk zmieniać oraz optymalizować
+wysiłki, które robimy. Kropka. I to jest
+piąty, największy fundament tego,
+dlaczego najczęściej nie działa. Nie
+działa dlatego, że prezes wymyślił, żeby
+zrobić taki raport, to oni zrobili i
+prezes wymyślił, żeby pisać takie maile,
+to oni pisali. I tak naprawdę to są
+fajne dwa pomysły i może się nawet
+wydawać, że wydaliśmy pieniądze na jedno
+i drugie bez sensu niejako i spaliliśmy
+je, panie Szymonie. to nam nie
+zadziałało i w ogóle uważam, że to jest
+błędny mental w kontekście pozyskiwania
+klientów w B2B, bo my wydaliśmy
+pieniądze nie na to, że to się okazało,
+że to nie działa, tylko wydaliśmy
+pieniądze na jakiś eksperyment, żeby
+pozyskać jakieś dane na jakiś konkretny
+temat. I teraz wyszło nam, że
+zapłaciliśmy na przykład, nie wiem, 10
+000, żeby dowiedzieć się, że to nie ma
+sensu i super. To jest fajna informacja
+dla mnie jako przedsiębiorcy. Ja
+zapłaciłem pieniądze nie tylko za to, że
+mam nie mam z tego rezultatu, ale za to,
+że wiem, że to nie działa. I teraz coś
+zazwyczaj jakaś jedna metryka z tych, no
+może nie odpowiadali, ale otwierali.
+Okej, czyli mamy już się o co złapać.
+Mamy okej, taki tytuł, taki pomysł
+działa, bo oni to otwierają, już idziemy
+z pomysłem dalej i na tej podstawie
+poprawiamy go i szukamy lepszej wersji.
+I powiem wam, że firmy, które są w
+stanie wytrzymać 6 miesięcy w takim
+reżimie mierzenia i poprawiania rzeczy
+co tydzień, zazwyczaj dochodzą do
+niesamowitych wyników na poziomie
+pozyskiwania klientów. Tylko najczęściej
+po prostu to nie działa w ten sposób.
+Najczęściej jest tak, że Heniu, jak tam
+te twoje maile? mówi, że słabo. Krysia
+mówi, że jeszcze gorzej, a tam Pawełek
+powiedział, że na rynku jest kryzys,
+więc tak jest i koniec. I teraz musimy
+czekać, aż już będzie dobrze, co jest
+oczywistym szaleństwem. Więc pięć
+fundamentów. Słuchajcie, fundament
+pierwszy, brak jasno zdefiniowanego
+klienta w obecnym otoczeniu biznesowym.
+Punkt drugi, propozycja wartości, która
+jest świeża, chrupiąca. Stąd mówię, że
+jest chrupiąca, a nie, że taka wiecie
+zbutwiała, leżała w szafce trzy lata i
+już nikt tego nie zje, ale wygląda jakby
+była
+okej. Trzeci punkt, język nieskupiony na
+wielkości i potędze. Punkt czwarty,
+proces, a nie pojedyncze działania. I
+punkt piąty, mierzenie tego procesu i
+tych działań oraz lokalna ich poprawa,
+ich rozwój i obojętnie czy mówimy o
+reklamach, czy mówimy o SEO, czy mówimy
+o raportach, czy mówimy o mailach, czy o
+telefonach, czy o czymkolwiek innym. I
+mam dla was doskonałą informację,
+dlatego że za tydzień pojawi się odcinek
+jak to robić na poziomie marketingu, a
+za dwa tygodnie pojawi się odcinek jak
+to robić na poziomie prospectingu, czyli
+działań handlowców. Czyli to czego
+nauczyliście się w tym odcinku,
+będziecie mogli użyć w dwóch kolejnych
+odcinkach. I to jest dopiero czat i z
+tego jesteśmy dumni. I teraz uwaga, bo
+możecie zrobić dwie rzeczy po tym
+materiale, nawet trzy. Rzecz pierwsza.
+Dobra,
+nieważne. Ja mam do tego szacunek.
+Możecie to zrobić w ten sposób. Rzecz
+druga, ja bym chciał to sobie sam
+ogarnąć tak, jak powinno być ogarnięte.
+I teraz na kod pozyskuję na ścieżkę dla
+właścicieli, czy czyli zawierającą
+wszystkie nasze szkolenia, które ich
+jest pięć, każdy ma 8 godzin, tam są
+jest pełna instrukcja jak to dobrze
+zbudować. Jest 15% dodatkowego robatu.
+To jest o tyle fajne, że ścieżka już w
+sobie ma zaszyte 30. jest o tyle niższa,
+tańsza niż wszystkie pięć szkoleń
+kupowanych osobno. A On top w tym
+materiale daje wam koszt, koszt kod
+pozyskuje. Jest trzecia opcja, którą
+możecie zrobić. Możecie się po prostu
+zgłosić do sellise. W prawym górnym rogu
+jest przycisk bezpłatna konsultacja i
+zlecić to nam, a my was poprowadzimy.
+Więc trzy opcje. Każda z nich jest dla
+nas w porządku. Nic nie robicie, jest
+fajnie. Kupujecie ścieżkę dla
+właścicieli, która ma pięć materiałów
+szkoleniowych pokazujących jak to zrobić
+z kodem rabatowym za to, że
+wytrzymaliście tyle tego materiału i
+robicie to sami i jest fajnie. Albo
+trzecia piszecie do nas i my wam
+pomożemy to zrobić. I też jest fajnie.
+Co do zasady jest fajnie, Kodusz? Jest
+fajnie. Kropka. Dzięki i do zobaczenia.
+Yeah.
