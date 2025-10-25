@@ -39,7 +39,10 @@ if not OPENAI_API_KEY:
 
 # Initialize clients
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
-qdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+qdrant_client = QdrantClient(
+    url=QDRANT_URL,
+    api_key=QDRANT_API_KEY if QDRANT_API_KEY else None
+)
 
 
 def ensure_collection_exists() -> None:
@@ -82,6 +85,7 @@ def load_transcripts() -> List[Dict[str, Any]]:
         List of dictionaries containing section data and metadata
     """
     all_points = []
+    point_id_counter = 1  # Global counter for unique integer IDs
 
     # Get all JSON files from transcripts directory
     json_files = sorted(TRANSCRIPTS_DIR.glob("*.json"))
@@ -128,13 +132,16 @@ def load_transcripts() -> List[Dict[str, Any]]:
                 "source_file": json_file.name,
                 "chunk_index": idx,
                 "content": content,  # Store content for retrieval
+                "original_id": f"{episode_id}_section_{idx}",  # Keep original ID in payload
             }
 
             all_points.append({
-                "id": f"{episode_id}_section_{idx}",
+                "id": point_id_counter,  # Use integer ID for Qdrant
                 "text": content,
                 "payload": payload
             })
+
+            point_id_counter += 1
 
     return all_points
 

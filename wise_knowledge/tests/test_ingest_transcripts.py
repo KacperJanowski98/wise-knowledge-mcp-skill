@@ -118,16 +118,18 @@ class TestLoadTranscripts:
         assert len(points) == 2  # Two sections in mock data
 
         # Check first point
-        assert points[0]['id'] == 'ep_test_section_1'
+        assert points[0]['id'] == 1  # Integer ID
         assert points[0]['text'] == 'This is the content of the first section.'
         assert points[0]['payload']['episode_id'] == 'ep_test'
         assert points[0]['payload']['episode_title'] == 'Test Episode'
         assert points[0]['payload']['section_heading'] == 'Introduction'
+        assert points[0]['payload']['original_id'] == 'ep_test_section_1'
         assert len(points[0]['payload']['key_points']) == 2
 
         # Check second point
-        assert points[1]['id'] == 'ep_test_section_2'
+        assert points[1]['id'] == 2  # Integer ID
         assert points[1]['payload']['section_heading'] == 'Main Topic'
+        assert points[1]['payload']['original_id'] == 'ep_test_section_2'
 
     def test_skips_sections_without_content(self, tmp_path):
         """Test that sections with empty content are skipped."""
@@ -172,10 +174,12 @@ class TestLoadTranscripts:
             points = load_transcripts()
 
         assert len(points) == 1
+        assert points[0]['id'] == 1  # Integer ID
         assert points[0]['payload']['episode_id'] == 'minimal'
         assert points[0]['payload']['episode_title'] == ''
         assert points[0]['payload']['tags'] == []
         assert points[0]['payload']['section_heading'] == 'Section 1'
+        assert points[0]['payload']['original_id'] == 'minimal_section_1'
 
     def test_returns_empty_list_for_no_files(self, tmp_path):
         """Test that empty list is returned when no JSON files exist."""

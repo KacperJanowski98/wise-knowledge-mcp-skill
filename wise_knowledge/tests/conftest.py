@@ -73,7 +73,7 @@ def sample_points():
     """Fixture providing sample points for upload."""
     return [
         {
-            'id': 'ep_001_section_1',
+            'id': 1,  # Integer ID for Qdrant
             'text': 'Sample content for section 1',
             'payload': {
                 'episode_id': 'ep_001',
@@ -83,11 +83,12 @@ def sample_points():
                 'tags': ['test'],
                 'source_file': 'test.json',
                 'chunk_index': 1,
-                'content': 'Sample content for section 1'
+                'content': 'Sample content for section 1',
+                'original_id': 'ep_001_section_1'
             }
         },
         {
-            'id': 'ep_001_section_2',
+            'id': 2,  # Integer ID for Qdrant
             'text': 'Sample content for section 2',
             'payload': {
                 'episode_id': 'ep_001',
@@ -97,7 +98,8 @@ def sample_points():
                 'tags': ['test'],
                 'source_file': 'test.json',
                 'chunk_index': 2,
-                'content': 'Sample content for section 2'
+                'content': 'Sample content for section 2',
+                'original_id': 'ep_001_section_2'
             }
         }
     ]
