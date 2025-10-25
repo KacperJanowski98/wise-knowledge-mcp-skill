@@ -106,7 +106,11 @@ Skrypt automatycznie:
 │   ├── strategia_biznesu.json
 │   └── ...
 └── wise_knowledge/            # Główny pakiet Python
+    ├── tests/                 # Testy jednostkowe
+    │   ├── conftest.py        # Pytest fixtures
+    │   └── test_ingest_transcripts.py
     ├── pyproject.toml         # Zależności (uv)
+    ├── pytest.ini             # Konfiguracja pytest
     ├── .env.example           # Szablon zmiennych środowiskowych
     ├── main.py                # Entry point aplikacji
     └── ingest_transcripts.py  # Logika ingestion
@@ -152,6 +156,47 @@ EMBED_DIM=512
 BATCH_SIZE=64
 TRANSCRIPTS_DIR=../transcripts
 ```
+
+## 🧪 Testing
+
+Projekt używa pytest do testów jednostkowych.
+
+### Uruchomienie testów
+
+```bash
+# Zainstaluj dev dependencies
+cd wise_knowledge
+uv sync --extra dev
+
+# Uruchom wszystkie testy
+uv run pytest
+
+# Uruchom testy z coverage report
+uv run pytest --cov
+
+# Uruchom konkretny plik testowy
+uv run pytest tests/test_ingest_transcripts.py
+
+# Uruchom testy w trybie verbose
+uv run pytest -v
+
+# Generuj HTML coverage report
+uv run pytest --cov --cov-report=html
+# Raport w: htmlcov/index.html
+```
+
+### Struktura testów
+
+- `tests/test_ingest_transcripts.py` - testy dla funkcji ingestion
+- `tests/conftest.py` - wspólne fixtures dla testów
+- `pytest.ini` - konfiguracja pytest
+
+Testy pokrywają:
+- Tworzenie kolekcji Qdrant
+- Generowanie embeddingów
+- Ładowanie i parsowanie JSONów
+- Upload do Qdrant
+- Obsługę błędów
 
 ## 🔍 Wyszukiwanie (TODO)
 

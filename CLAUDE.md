@@ -68,7 +68,7 @@ Qdrant will be available at:
 
 ```bash
 cd wise_knowledge
-uv run python ingest_transcripts.py
+uv run python main.py
 ```
 
 This will:
@@ -76,6 +76,25 @@ This will:
 2. Generate 512-dim embeddings for each section's content
 3. Upload to Qdrant collection `podcasts_transcripts`
 4. Store metadata (episode_id, title, heading, key_points, tags, etc.)
+
+### Run tests
+
+```bash
+# Install dev dependencies
+uv sync --extra dev
+
+# Run all tests
+uv run pytest
+
+# Run tests with coverage report
+uv run pytest --cov
+
+# Run specific test file
+uv run pytest tests/test_ingest_transcripts.py
+
+# Run tests with verbose output
+uv run pytest -v
+```
 
 ## Key Technical Details
 
