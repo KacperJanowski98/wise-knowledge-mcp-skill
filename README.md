@@ -113,7 +113,8 @@ Skrypt automatycznie:
     ├── pytest.ini             # Konfiguracja pytest
     ├── .env.example           # Szablon zmiennych środowiskowych
     ├── main.py                # Entry point aplikacji
-    └── ingest_transcripts.py  # Logika ingestion
+    ├── ingest_transcripts.py  # Logika ingestion
+    └── explore_database.ipynb # Jupyter notebook do eksploracji danych
 ```
 
 ## 📄 Format JSON transkryptów
@@ -198,7 +199,38 @@ Testy pokrywają:
 - Upload do Qdrant
 - Obsługę błędów
 
-## 🔍 Wyszukiwanie (TODO)
+## 📊 Eksploracja Danych
+
+Projekt zawiera Jupyter notebook do analizy zawartości bazy danych.
+
+### Uruchomienie notebooka
+
+```bash
+# Zainstaluj Jupyter i zależności
+cd wise_knowledge
+uv sync --extra dev
+
+# Uruchom Jupyter Lab
+uv run jupyter lab
+
+# Lub Jupyter Notebook
+uv run jupyter notebook
+```
+
+Następnie otwórz plik [explore_database.ipynb](wise_knowledge/explore_database.ipynb).
+
+### Funkcjonalności notebooka
+
+- ✅ Podgląd informacji o kolekcji Qdrant
+- ✅ Wyświetlanie pierwszych punktów z metadanymi
+- ✅ Statystyki (liczba epizodów, średnia długość contentu, etc.)
+- ✅ Analiza podziału na epizody
+- ✅ Wizualizacje (rozkład długości, key points, sekcje na epizod)
+- ✅ Wyszukiwanie po metadanych
+- ✅ Podgląd szczegółów konkretnego punktu
+- ✅ Eksport danych do CSV
+
+## 🔍 Wyszukiwanie Semantyczne (TODO)
 
 Planowane funkcjonalności wyszukiwania:
 - Query API do semantycznego przeszukiwania

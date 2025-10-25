@@ -96,6 +96,21 @@ uv run pytest tests/test_ingest_transcripts.py
 uv run pytest -v
 ```
 
+### Explore database (Jupyter)
+
+```bash
+# Install dev dependencies (includes Jupyter)
+uv sync --extra dev
+
+# Launch Jupyter Lab
+uv run jupyter lab
+
+# Or Jupyter Notebook
+uv run jupyter notebook
+```
+
+Open `explore_database.ipynb` to view database statistics, visualizations, and sample data.
+
 ## Key Technical Details
 
 - **Embedding Model**: text-embedding-3-small (512 dimensions)
