@@ -96,25 +96,8 @@ async def call_tool(name: str, arguments: Any) -> list[TextContent]:
                 score_threshold=score_threshold
             )
 
-            # Format response
-            if not results:
-                response = f"No results found for query: '{query}'"
-            else:
-                response = f"Found {len(results)} result(s) for query: '{query}'\n\n"
-                for i, result in enumerate(results, 1):
-                    response += f"--- Result {i} (score: {result['score']}) ---\n"
-                    response += f"Episode: {result['episode_title']}\n"
-                    response += f"Section: {result['section_heading']}\n"
-                    response += f"\nContent:\n{result['content']}\n"
-                    if result['key_points']:
-                        response += f"\nKey Points:\n"
-                        for point in result['key_points']:
-                            response += f"  • {point}\n"
-                    if result['tags']:
-                        response += f"\nTags: {', '.join(result['tags'])}\n"
-                    response += "\n"
-
-            return [TextContent(type="text", text=response)]
+            # Return results as JSON for programmatic use
+            return [TextContent(type="text", text=json.dumps(results, ensure_ascii=False))]
 
         except Exception as e:
             return [TextContent(

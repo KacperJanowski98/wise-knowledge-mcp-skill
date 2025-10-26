@@ -30,7 +30,8 @@ if not OPENAI_API_KEY:
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 qdrant_client = QdrantClient(
     url=QDRANT_URL,
-    api_key=QDRANT_API_KEY if QDRANT_API_KEY else None
+    api_key=QDRANT_API_KEY if QDRANT_API_KEY else None,
+    prefer_grpc=False  # Suppress insecure connection warning for local development
 )
 
 
