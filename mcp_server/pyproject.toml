@@ -1,0 +1,20 @@
+[project]
+name = "wise-knowledge-mcp"
+version = "0.1.0"
+description = "MCP server for semantic search over podcast transcripts knowledge base"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "qdrant-client>=1.15.1",
+    "openai>=1.58.1",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.12.0",
+    "pytest-asyncio>=0.23.0",
+]
