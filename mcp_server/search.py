@@ -55,7 +55,7 @@ def generate_query_embedding(query: str) -> List[float]:
 def search_knowledge_base(
     query: str,
     limit: int = DEFAULT_SEARCH_LIMIT,
-    score_threshold: float = 0.0
+    score_threshold: float = 0.7
 ) -> List[Dict[str, Any]]:
     """
     Perform semantic search over podcast transcripts.
