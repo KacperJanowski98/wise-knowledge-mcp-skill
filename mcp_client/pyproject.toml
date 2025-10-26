@@ -1,0 +1,11 @@
+[project]
+name = "mcp-client"
+version = "0.1.0"
+description = "Simple MCP client for testing wise-knowledge server with Ollama"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "ollama>=0.3.0",
+    "python-dotenv>=1.0.0",
+]

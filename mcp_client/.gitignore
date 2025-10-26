@@ -1,0 +1,72 @@
+# Systemy operacyjne
+.DS_Store
+Thumbs.db
+
+# Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+pip-log.txt
+
+# Virtualenv / env
+.env
+.venv/
+venv/
+env/
+ENV/
+.venv/*
+
+# Menedżery pakietów JS (jeśli używasz)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Środowiska IDE / edytory
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Testy / cache
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.tox/
+.cache/
+.hypothesis/
+
+# Dane tymczasowe / logi
+*.log
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Klucze / pliki konfiguracyjne zawierające sekretne dane
+*.pem
+*.key
+*.crt
+secrets.yml
+credentials.json
+
+# Pliki build/CI
+.gradle/
+build/
+dist/
+*.egg-info/
+
+# Inne
+*.bak
+*.swp
+*.swo
