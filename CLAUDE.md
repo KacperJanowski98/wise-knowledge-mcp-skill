@@ -17,6 +17,10 @@ The repository has a two-tier structure: project root contains Docker config and
 ├── transcripts/               # JSON transcript files (at root level, not in wise_knowledge/)
 │   ├── strategia_biznesu.json
 │   └── *.json                 # Multiple transcript files
+├── skills/                    # Claude Code skills for this project
+│   └── wise-knowledge-search/ # Skill for searching podcast transcripts
+│       ├── SKILL.md           # Skill definition and instructions
+│       └── README.md          # Installation and usage guide
 ├── mcp_server/                # MCP server for semantic search
 │   ├── tests/                 # Unit tests for MCP server
 │   │   ├── conftest.py        # Shared fixtures
@@ -25,6 +29,10 @@ The repository has a two-tier structure: project root contains Docker config and
 │   ├── .env.example           # Environment variables template
 │   ├── search.py              # Core search functionality
 │   └── main.py                # MCP server implementation
+├── mcp_client/                # Interactive MCP client with Ollama
+│   ├── pyproject.toml         # Client dependencies
+│   ├── .env.example           # Ollama configuration
+│   └── main.py                # Interactive chat interface
 └── wise_knowledge/            # Python package directory (cd here for dev work)
     ├── tests/                 # Unit tests with pytest
     │   ├── conftest.py        # Shared fixtures (mock data, temp dirs)
@@ -272,3 +280,128 @@ uv sync --extra dev
 uv run pytest
 uv run pytest --cov  # with coverage
 ```
+
+## MCP Client (Interactive Chat with Ollama)
+
+The `mcp_client/` directory provides an interactive command-line client that combines the MCP server with Ollama for conversational queries.
+
+### Setup MCP Client
+
+```bash
+cd mcp_client
+uv sync
+cp .env.example .env
+# Edit .env and configure OLLAMA_MODEL (default: llama3.2:latest)
+```
+
+### Run MCP Client
+
+**Prerequisites:**
+- Ollama installed and running (`ollama serve`)
+- Model pulled (`ollama pull llama3.2:latest`)
+- MCP server configured (uses mcp_server/ from parent directory)
+
+```bash
+cd mcp_client
+uv run python main.py
+```
+
+### Client Features
+
+- **Interactive chat**: Ask questions in natural language
+- **RAG workflow**: Searches knowledge base → feeds context to Ollama → generates response
+- **Status command**: Type `status` to see collection statistics
+- **Detailed results**: Option to view full search results after each query
+
+### Client Architecture
+
+- **WiseKnowledgeClient class** - Manages MCP server connection via stdio
+- **Interactive mode** - REPL-style chat interface
+- **Ollama integration** - Streams responses from local LLM
+- **Context building** - Formats search results into prompts for Ollama
+
+Flow:
+1. User query → MCP server (search_podcasts tool)
+2. Search results → formatted context
+3. Context + query → Ollama (streaming response)
+4. Display AI-generated answer based on podcast content
+
+## Claude Code Skill
+
+The `skills/wise-knowledge-search/` directory contains a Claude Code skill that enables semantic search capabilities directly in Claude conversations.
+
+### Skill Overview
+
+The **wise-knowledge-search** skill allows Claude to:
+- Search podcast transcripts using natural language queries
+- Retrieve relevant sections with key points and metadata
+- Check knowledge base status and statistics
+- Provide intelligent responses based on podcast content
+
+### Installation
+
+**Option 1: Global Installation**
+```bash
+# macOS
+cp -r skills/wise-knowledge-search ~/Library/Application\ Support/Claude/skills/
+
+# Linux
+cp -r skills/wise-knowledge-search ~/.config/claude/skills/
+```
+
+**Option 2: Project-Local**
+
+The skill can be loaded directly from the project directory if Claude Code is configured to scan project skills.
+
+### Prerequisites
+
+Before using the skill:
+
+1. **Qdrant running**: `cd docker && docker compose up -d`
+2. **Knowledge base populated**: `cd wise_knowledge && uv run python main.py`
+3. **MCP server configured** in Claude Code:
+
+```json
+{
+  "mcpServers": {
+    "wise-knowledge": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/full/path/to/wise_knowledge/mcp_server",
+        "run",
+        "python",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
+4. **Environment configured**: `mcp_server/.env` with `OPENAI_API_KEY`
+
+### Usage
+
+Once installed, Claude will automatically activate the skill when relevant:
+
+**Example queries:**
+- "What did the podcasts say about marketing strategy?"
+- "Find episodes discussing AI and automation"
+- "How many podcast episodes are in the knowledge base?"
+- "Search for content about pricing strategies"
+
+The skill automatically:
+- Uses MCP tools (`search_podcasts`, `get_collection_status`)
+- Formats results with episode titles, sections, and key points
+- Shows relevance scores for transparency
+- Handles Polish content correctly
+
+### Skill Behavior
+
+- **Automatic activation**: Triggers when user asks about podcast content
+- **Natural language**: Supports conversational queries
+- **Semantic search**: Uses OpenAI embeddings for understanding
+- **Configurable parameters**: Adjusts `limit` (1-20) and `score_threshold` (0.0-1.0)
+- **Polish support**: Maintains proper grammar and diacritics
+
+For detailed skill documentation, see [skills/wise-knowledge-search/README.md](skills/wise-knowledge-search/README.md).

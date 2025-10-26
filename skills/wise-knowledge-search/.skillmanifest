@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "name": "wise-knowledge-search",
+  "displayName": "Wise Knowledge Search",
+  "description": "Search podcast transcripts knowledge base using semantic search",
+  "author": "Wise Knowledge Project",
+  "license": "MIT",
+  "repository": "wise_knowledge/skills/wise-knowledge-search",
+  "keywords": [
+    "search",
+    "semantic-search",
+    "podcasts",
+    "transcripts",
+    "knowledge-base",
+    "mcp",
+    "qdrant",
+    "embeddings",
+    "polish"
+  ],
+  "category": "knowledge-management",
+  "requirements": {
+    "mcp_server": "wise-knowledge",
+    "tools": [
+      "search_podcasts",
+      "get_collection_status"
+    ]
+  },
+  "configuration": {
+    "mcp_server_path": "mcp_server/",
+    "requires_openai_key": true,
+    "requires_qdrant": true
+  },
+  "files": {
+    "skill": "SKILL.md",
+    "readme": "README.md",
+    "examples": "EXAMPLES.md",
+    "changelog": "CHANGELOG.md",
+    "license": "LICENSE",
+    "install_script": "install.sh",
+    "mcp_config_example": "claude-code-mcp-config.example.json"
+  },
+  "support": {
+    "languages": ["polish", "english"],
+    "platforms": ["macOS", "Linux"]
+  }
+}
