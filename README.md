@@ -2,6 +2,16 @@
 
 Inteligentna baza wiedzy z transkryptami podcastów wykorzystująca semantic search w Qdrant. System przetwarza transkrypcje podcastów i umożliwia semantyczne wyszukiwanie treści za pomocą embeddingów OpenAI.
 
+## 🎯 Czym jest ten projekt?
+
+Kompletny system RAG (Retrieval-Augmented Generation) składający się z:
+1. **Pipeline przetwarzania** - transformacja transkryptów JSON → embeddingi → baza wektorowa
+2. **MCP Server** - API zgodne z Model Context Protocol do wyszukiwania semantycznego
+3. **RAG Client** - interaktywny chat z Ollama wykorzystujący bazę wiedzy
+4. **Claude Skill** - bezpośrednia integracja z Claude Code
+
+Projekt można używać samodzielnie (RAG client) lub jako backend wiedzy dla AI assistants (Claude, własne agenty).
+
 ## 📋 Opis projektu
 
 System umożliwiający budowę prywatnej bazy wiedzy z transkryptów podcastów z wykorzystaniem wyszukiwania semantycznego. Projekt wykorzystuje:
@@ -18,32 +28,45 @@ System umożliwiający budowę prywatnej bazy wiedzy z transkryptów podcastów 
 - 🏷️ **Zaawansowane metadane** - episode_id, title, heading, key_points, tags, source_file
 - ⚡ **Szybkie wyszukiwanie** - milisekundowe odpowiedzi dzięki indeksom wektorowym Qdrant
 - 📝 **Pełny kontekst** - każdy chunk zawiera treść sekcji oraz wszystkie metadane
+- 🤖 **MCP Server** - API wyszukiwania przez Model Context Protocol
+- 💬 **RAG Chat** - Interaktywny klient z Ollama do rozmów opartych na bazie wiedzy
+- 🎨 **Claude Code Skill** - Bezpośrednia integracja z Claude do wyszukiwania w rozmowach
 
 ## 🏗️ Architektura
+
+Projekt składa się z czterech głównych komponentów:
 
 ```
 ┌─────────────────────┐
 │  transcripts/       │
 │  *.json files       │
-│  (episode data)     │
 └──────────┬──────────┘
            │
            ▼
-┌─────────────────────┐
-│  ingest_transcripts │
-│  - Load JSONs       │
-│  - OpenAI API       │
-│  - Batch processing │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  Qdrant Database    │
-│  (Vector Store)     │
-│  - 512-dim vectors  │
-│  - Cosine distance  │
-└─────────────────────┘
+┌─────────────────────┐     ┌─────────────────────┐
+│  Ingestion Pipeline │────▶│  Qdrant Database    │
+│  (wise_knowledge/)  │     │  - 512-dim vectors  │
+│  - Load JSONs       │     │  - Cosine distance  │
+│  - OpenAI Embeddings│     │  - Metadata         │
+└─────────────────────┘     └──────────┬──────────┘
+                                       │
+                    ┌──────────────────┼──────────────────┐
+                    │                  │                  │
+                    ▼                  ▼                  ▼
+         ┌──────────────────┐  ┌──────────────┐  ┌──────────────┐
+         │   MCP Server     │  │  MCP Client  │  │ Claude Skill │
+         │  (mcp_server/)   │  │ (mcp_client/)│  │   (skills/)  │
+         │  - Search API    │  │  - Ollama    │  │  - Claude    │
+         │  - MCP Protocol  │  │  - RAG Chat  │  │    Code      │
+         └──────────────────┘  └──────────────┘  └──────────────┘
 ```
+
+**Komponenty:**
+1. **Ingestion Pipeline** - Przetwarza transkrypty i tworzy embeddingi
+2. **Qdrant Database** - Przechowuje wektory i metadane
+3. **MCP Server** - Udostępnia API wyszukiwania przez Model Context Protocol
+4. **MCP Client** - Interaktywny klient czatu z Ollama (RAG)
+5. **Claude Skill** - Integracja z Claude Code do wyszukiwania w rozmowach
 
 ## 🚀 Quick Start
 
@@ -53,6 +76,7 @@ System umożliwiający budowę prywatnej bazy wiedzy z transkryptów podcastów 
 - Docker & Docker Compose
 - OpenAI API Key
 - `uv` (dependency manager)
+- Ollama (opcjonalnie, dla MCP Client)
 
 ### Instalacja
 
@@ -105,7 +129,24 @@ Skrypt automatycznie:
 ├── transcripts/               # Pliki JSON z transkryptami
 │   ├── strategia_biznesu.json
 │   └── ...
-└── wise_knowledge/            # Główny pakiet Python
+├── skills/                    # Claude Code skills
+│   └── wise-knowledge-search/ # Skill wyszukiwania
+│       ├── SKILL.md           # Definicja skill
+│       ├── README.md          # Dokumentacja
+│       └── EXAMPLES.md        # Przykłady użycia
+├── mcp_server/                # MCP Server (Semantic Search API)
+│   ├── tests/                 # Testy MCP server
+│   │   ├── conftest.py
+│   │   └── test_search.py
+│   ├── pyproject.toml         # Zależności MCP server
+│   ├── .env.example           # Szablon zmiennych
+│   ├── search.py              # Logika wyszukiwania
+│   └── main.py                # Implementacja MCP server
+├── mcp_client/                # Interaktywny klient z Ollama
+│   ├── pyproject.toml         # Zależności klienta
+│   ├── .env.example           # Konfiguracja Ollama
+│   └── main.py                # Interfejs chat
+└── wise_knowledge/            # Pakiet ingestion
     ├── tests/                 # Testy jednostkowe
     │   ├── conftest.py        # Pytest fixtures
     │   └── test_ingest_transcripts.py
@@ -230,13 +271,113 @@ Następnie otwórz plik [explore_database.ipynb](wise_knowledge/explore_database
 - ✅ Podgląd szczegółów konkretnego punktu
 - ✅ Eksport danych do CSV
 
-## 🔍 Wyszukiwanie Semantyczne (TODO)
+## 🔍 Wyszukiwanie Semantyczne
 
-Planowane funkcjonalności wyszukiwania:
-- Query API do semantycznego przeszukiwania
-- Filtrowanie po episode_id, tagach
-- Zwracanie najbardziej podobnych sekcji z kontekstem
-- Integracja z MCP (Model Context Protocol)
+System udostępnia trzy sposoby wyszukiwania w bazie wiedzy:
+
+### 1. MCP Server (API)
+
+Model Context Protocol server udostępniający API wyszukiwania.
+
+**Setup:**
+```bash
+cd mcp_server
+uv sync
+cp .env.example .env
+# Edytuj .env i dodaj OPENAI_API_KEY
+
+# Uruchom server
+uv run python main.py
+```
+
+**Integracja z Claude Desktop/Code:**
+
+Dodaj do konfiguracji MCP (np. `~/.config/claude-code/mcp.json`):
+```json
+{
+  "mcpServers": {
+    "wise-knowledge": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/pełna/ścieżka/do/wise_knowledge/mcp_server",
+        "run",
+        "python",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
+**Dostępne narzędzia MCP:**
+- `search_podcasts` - wyszukiwanie semantyczne z parametrami query, limit, score_threshold
+- `get_collection_status` - statystyki bazy wiedzy
+
+**Testy:**
+```bash
+cd mcp_server
+uv sync --extra dev
+uv run pytest
+uv run pytest --cov  # z coverage
+```
+
+### 2. MCP Client (Interaktywny Chat z Ollama)
+
+Konsolowy klient łączący MCP server z lokalnym LLM (Ollama) do rozmów RAG.
+
+**Setup:**
+```bash
+cd mcp_client
+uv sync
+cp .env.example .env
+# Edytuj .env i ustaw OLLAMA_MODEL (domyślnie: llama3.2:latest)
+```
+
+**Wymagania:**
+- Ollama zainstalowany i uruchomiony (`ollama serve`)
+- Model pobrany (`ollama pull llama3.2:latest`)
+- MCP server skonfigurowany (używa `mcp_server/` z projektu)
+
+**Uruchomienie:**
+```bash
+cd mcp_client
+uv run python main.py
+```
+
+**Funkcje:**
+- Interaktywny chat z pytaniami w naturalnym języku
+- RAG workflow: wyszukiwanie → kontekst → Ollama → odpowiedź
+- Komenda `status` - statystyki kolekcji
+- Opcja wyświetlania szczegółowych wyników wyszukiwania
+
+### 3. Claude Code Skill
+
+Skill dla Claude Code umożliwiający wyszukiwanie bezpośrednio w rozmowach z Claude.
+
+**Instalacja:**
+```bash
+# macOS
+cp -r skills/wise-knowledge-search ~/Library/Application\ Support/Claude/skills/
+
+# Linux
+cp -r skills/wise-knowledge-search ~/.config/claude/skills/
+```
+
+**Wymagania:**
+- Qdrant uruchomiony: `cd docker && docker compose up -d`
+- Baza zasilona: `cd wise_knowledge && uv run python main.py`
+- MCP server skonfigurowany w Claude Code (patrz wyżej)
+- Environment: `mcp_server/.env` z `OPENAI_API_KEY`
+
+**Użycie:**
+
+Claude automatycznie aktywuje skill gdy zapytasz o treści podcastów:
+- "Co mówiono w podcastach o strategii marketingowej?"
+- "Znajdź odcinki o AI i automatyzacji"
+- "Ile epizodów jest w bazie?"
+
+Więcej przykładów: [skills/wise-knowledge-search/EXAMPLES.md](skills/wise-knowledge-search/EXAMPLES.md)
 
 ## 🐳 Docker
 
@@ -270,12 +411,20 @@ docker compose down -v
 
 ## 📊 Szczegóły techniczne
 
-- **Embedding Model**: text-embedding-3-small
+### Embeddings
+- **Model**: text-embedding-3-small (OpenAI)
 - **Wymiary**: 512
 - **Distance Metric**: Cosine similarity
 - **Batch Size**: 64 sekcje na request
 - **Chunking**: 1 sekcja = 1 punkt w Qdrant
-- **ID Format**: `{episode_id}_section_{idx}`
+- **ID Format**: Auto-incrementing integers (original `{episode_id}_section_{idx}` w payload)
+
+### Komponenty
+- **Ingestion**: Python 3.11+, uv, pytest
+- **Qdrant**: Docker, localhost:6333 (HTTP), localhost:6334 (gRPC)
+- **MCP Server**: Python 3.11+, mcp library, async support
+- **MCP Client**: Python 3.11+, Ollama integration, RAG workflow
+- **Claude Skill**: MCP tools, Claude Code integration
 
 ## 📝 Licencja
 
